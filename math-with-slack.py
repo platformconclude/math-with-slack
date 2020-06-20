@@ -178,8 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     tex: {
       packages: {'[+]': ['ams', 'color', 'noerrors', 'noundefined', 'boldsymbol']},
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
+      inlineMath: [['$$', '$$']],
+      displayMath: [['$$$', '$$$']],
     },
     startup: {
       ready: () => {
